@@ -1,15 +1,21 @@
 def bash_hash
-monopoly =  {
+  monopoly =  {
   :railroads=>
   {
+def monopoly_with_second_tier 
+  
     :pieces=>4,
     :rent_in_dollars=>
-    {
+  }
+def monopoly_with_third_tier
+   monopoly = {
       :one_piece_owned=>25,
       :two_pieces_owned=>50,
       :three_pieces_owned=>100,
       :four_pieces_owned=>200
     },
+def monopoly_with_fourth_tier
+   monopoly = {
     :names=>
     {
       :reading_railroad=>
